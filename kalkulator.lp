@@ -1,11 +1,6 @@
-// kalkulator.lp — Kalkulator sederhana dalam bahasa Loop
-// Jalankan: ./seed/loop kalkulator.lp
-//
-// Operator: +  -  *  /  % (sisa bagi)  ^ (pangkat)
-// Tekan Enter kosong kapan saja untuk keluar.
+// kalkulator.lp 
+//Kalkulator sederhana dalam bahasa Loop
 
-// Cek apakah teks adalah angka valid, contoh: "12", "-3.5", "0.25"
-// (keDesimal("abc") hasilnya 0, jadi validasi harus dilakukan sendiri)
 fungsi adalahAngka(s) {
     milik n = panjang(s)
     jika n == 0 maka
@@ -94,7 +89,7 @@ fungsi hitung(a, op, b) {
     }
 }
 
-// ── Program utama ─────────────────────────────────────
+// Program utama
 
 cetak "=============================="
 cetak "      KALKULATOR  LOOP"
