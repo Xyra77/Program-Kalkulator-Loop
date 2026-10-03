@@ -1,4 +1,3 @@
-// kalkulator.lp 
 //Kalkulator sederhana dalam bahasa Loop
 
 fungsi adalahAngka(s) {
