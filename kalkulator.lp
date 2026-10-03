@@ -1,4 +1,4 @@
-//Kalkulator sederhana dalam bahasa Loop
+//Program Kalkulator sederhana dalam bahasa Loop
 
 fungsi adalahAngka(s) {
     milik n = panjang(s)
